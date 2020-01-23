@@ -1,0 +1,34 @@
+% Example of a table:
+
+\def\ekfixtable{
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{width=1\textwidth}
+\small
+ \begin{tabular}[t]{||c|| c | c | c | c | c | c | c | c | c |c||}
+ \hline
+  Aspect Ratio & E & Luminosity & Ra & Pr & $\Delta$t & $N_r$ x $N_{\theta}$ x $N_{\phi}$ & $\ell$ degree & Wavenumber $m$ & $P_{\ell}$ & Growth Rate \\ [0.5ex]
+ \hline\hline
+ 0.1 & $10^{-2}$ & 1 & $1.28 \times 10^7$ & 1 & $10^{-3}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 2 \\ 4\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0 \\ 0\end{tabular} & \begin{tabular}[c]{@{}l@{}} $7.64 \times 10^3$ \\ $5.01 \times 10^3$\end{tabular} & \begin{tabular}[c]{@{}l@{}} $0.1$ \\ $1.49 \times 10^{-3}$ \end{tabular} \\
+ \hline
+  0.1 & $10^{-2}$ & 1 & $1.28 \times 10^8$ & 1 & $10^{-3}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 2 \\ 4\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0 \\ 0\end{tabular} & \begin{tabular}[c]{@{}l@{}} $1.49 \times 10^6$ \\ $1.27 \times 10^5$\end{tabular} & \begin{tabular}[c]{@{}l@{}} $1.0 \times 10^{-3}$ \\ $1.12 \times 10^{-3}$ \end{tabular} \\
+   \hline
+  0.1 & $10^{-2}$ & 1 & $1.28 \times 10^9$ & 1 & $10^{-3}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 4 \\ 2\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0 \\ 0\end{tabular} & \begin{tabular}[c]{@{}l@{}} $1.73 \times 10^6$ \\ $1.30 \times 10^6$\end{tabular} & \begin{tabular}[c]{@{}l@{}} $3.07 \times 10^{-2}$ \\ $3.05 \times 10^{-3}$ \end{tabular} \\
+ \hline \hline
+ 0.1 & $10^{-3}$ & 1 & $1.28 \times 10^7$ & 1 & $10^{-4}$ & 64x96x192 & 6 & 4 & 376 & $3.25 \times 10^{-3}$\\
+ \hline
+  0.1 & $10^{-3}$ & 1 & $1.28 \times 10^8$ & 1 & $10^{-4}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 4 \\ 4 \\ 4\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0 \\ 0 \\ 2\end{tabular} & \begin{tabular}[c]{@{}l@{}} $2.5 \times 10^4$ \\ $2.17 \times 10^4$ \\ $2.01 \times 10^4$\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0.146 \\ 0.044 \\ 0.038\end{tabular}\\
+   \hline
+  0.1 & $10^{-3}$ & 1 & $1.28 \times 10^9$ & 1 & $10^{-4}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 4 \\ 8 \\ 8\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0 \\ 0 \\ 0\end{tabular} & \begin{tabular}[c]{@{}l@{}} $1.39 \times 10^6$ \\ $7.94 \times 10^5$ \\ $4.74 \times 10^5$\end{tabular} & \begin{tabular}[c]{@{}l@{}} $0.114$ \\ $1.17 \times 10^{-4}$ \\ $1.19 \times 10^{-4}$\end{tabular} \\
+ \hline \hline
+ 0.1 & $10^{-4}$ & 1 & $1.28 \times 10^7$ & 1 & $10^{-5}$ & 64x96x192 & - & - & - & - \\
+ \hline
+  0.1 & $10^{-4}$ & 1 & $1.28 \times 10^8$ & 1 & $10^{-5}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 5 \\ 5\end{tabular} & \begin{tabular}[c]{@{}l@{}} 3 \\ 3\end{tabular} & \begin{tabular}[c]{@{}l@{}} $2.09 \times 10^3$ \\ $278$\end{tabular} & \begin{tabular}[c]{@{}l@{}} $7.54 \times 10^{-2}$ \\ $6.68 \times 10^{-3}$\end{tabular}\\
+   \hline
+  0.1 & $10^{-4}$ & 1 & $1.28 \times 10^9$ & 1 & $10^{-5}$ & 64x96x192 & \begin{tabular}[c]{@{}l@{}} 8 \\ 6 \\ 5\end{tabular} & \begin{tabular}[c]{@{}l@{}} 0 \\ 0 \\ 3\end{tabular} & \begin{tabular}[c]{@{}l@{}} $9.27 \times 10^4$ \\ $1.20 \times 10^5$ \\ $2.38 \times 10^5$\end{tabular} & \begin{tabular}[c]{@{}l@{}} $1.72 \times 10^{-4}$ \\ $3.27 \times 10^{-4}$ \\ $1.93 \times 10^{-3}$\end{tabular}\\
+ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Details of numerical simulations performed for the incompressible model in this section. The following are specified, aspect ratio of the sphere, the Ekman number (E), the luminosity, the Rayleigh number (Ra), the Prandtl number (Pr), the time-step size ($\Delta$t), the spatial resolution ($N_r$ x $N_{\theta}$ x $N_{\phi}$), and the spherical harmonic degree $\ell$ with corresponding wavenumber $m$. The power and growth rate are also recorded alongside each respective $\ell$ degree.}
+\end{table}}

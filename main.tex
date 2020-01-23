@@ -1,15 +1,48 @@
-\documentclass{article}
+\documentclass[12pt]{article}
+\linespread{1.5}
+\usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{float}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\usepackage[margin=1.in]{geometry}
+\usepackage{tocloft}
+\usepackage{subfig}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{mathrsfs}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+\newcommand{\uvec}{\boldsymbol{u}}
+\newcommand{\vgrad}{\boldsymbol{\nabla}}
+\newcommand{\omegavec}{\boldsymbol{\Omega}}
+\newcommand{\svec}{\boldsymbol{s}}
+\newcommand{\ekman}{\text{E}}
+\newcommand{\prandtl}{\text{Pr}}
+% These 6 lines will center the titles of the table of contents, list of figures and list of tables
 
 \title{Centrifugal}
 \author{Fredy Ramirez}
-\date{January 2020}
+\date{Last Modified: January 2020}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
+\input figures.tex
+\input math_model.tex
+\input centrifugal_only.tex
+
 
 \end{document}
-
