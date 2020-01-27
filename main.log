@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.23)  24 JAN 2020 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.23)  27 JAN 2020 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,12 +716,12 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 <figures/ke_radius_all.pdf, id=20, 722.7pt x 361.35pt>
 File: figures/ke_radius_all.pdf Graphic file (type pdf)
 <use figures/ke_radius_all.pdf>
-Package pdftex.def Info: figures/ke_radius_all.pdf  used on input line 5.
+Package pdftex.def Info: figures/ke_radius_all.pdf  used on input line 7.
 (pdftex.def)             Requested size: 469.75502pt x 234.88023pt.
 <figures/AZ_Avgs_501.pdf, id=21, 1167.59491pt x 580.9779pt>
 File: figures/AZ_Avgs_501.pdf Graphic file (type pdf)
 <use figures/AZ_Avgs_501.pdf>
-Package pdftex.def Info: figures/AZ_Avgs_501.pdf  used on input line 7.
+Package pdftex.def Info: figures/AZ_Avgs_501.pdf  used on input line 9.
 (pdftex.def)             Requested size: 469.75502pt x 233.7434pt.
 
 
@@ -730,7 +730,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/AZ_Avgs_omega.pdf, id=22, 1167.59491pt x 580.9779pt>
 File: figures/AZ_Avgs_omega.pdf Graphic file (type pdf)
 <use figures/AZ_Avgs_omega.pdf>
-Package pdftex.def Info: figures/AZ_Avgs_omega.pdf  used on input line 9.
+Package pdftex.def Info: figures/AZ_Avgs_omega.pdf  used on input line 11.
 (pdftex.def)             Requested size: 469.75502pt x 233.7434pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -738,8 +738,44 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/AZ_Avgs_massflux.pdf, id=23, 1167.59491pt x 580.9779pt>
 File: figures/AZ_Avgs_massflux.pdf Graphic file (type pdf)
 <use figures/AZ_Avgs_massflux.pdf>
-Package pdftex.def Info: figures/AZ_Avgs_massflux.pdf  used on input line 11.
+Package pdftex.def Info: figures/AZ_Avgs_massflux.pdf  used on input line 13.
 (pdftex.def)             Requested size: 469.75502pt x 233.7434pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/flux_radius_all_pol.pdf, id=24, 867.24pt x 361.35pt>
+File: figures/flux_radius_all_pol.pdf Graphic file (type pdf)
+<use figures/flux_radius_all_pol.pdf>
+Package pdftex.def Info: figures/flux_radius_all_pol.pdf  used on input line 15
+.
+(pdftex.def)             Requested size: 469.75502pt x 195.7326pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/flux_radius_all_eq.pdf, id=25, 867.24pt x 361.35pt>
+File: figures/flux_radius_all_eq.pdf Graphic file (type pdf)
+<use figures/flux_radius_all_eq.pdf>
+Package pdftex.def Info: figures/flux_radius_all_eq.pdf  used on input line 17.
+
+(pdftex.def)             Requested size: 469.75502pt x 195.7326pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/condflux_theta_rin.pdf, id=26, 722.7pt x 361.35pt>
+File: figures/condflux_theta_rin.pdf Graphic file (type pdf)
+<use figures/condflux_theta_rin.pdf>
+Package pdftex.def Info: figures/condflux_theta_rin.pdf  used on input line 19.
+
+(pdftex.def)             Requested size: 469.75502pt x 234.88023pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/condflux_theta_rout.pdf, id=27, 722.7pt x 361.35pt>
+File: figures/condflux_theta_rout.pdf Graphic file (type pdf)
+<use figures/condflux_theta_rout.pdf>
+Package pdftex.def Info: figures/condflux_theta_rout.pdf  used on input line 21
+.
+(pdftex.def)             Requested size: 469.75502pt x 234.88023pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -753,11 +789,62 @@ f>] [2 <./figures/AZ_Avgs_501.pdf> <./figures/AZ_Avgs_omega.pdf
 
 pdfTeX warning: pdflatex (file ./figures/AZ_Avgs_omega.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [3 <./figures/AZ_Avgs_massflux.pdf>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [4
+>] [3 <./figures/AZ_Avgs_massflux.pdf> <./figures/flux_radius_all_pol.pdf
 
-]
+pdfTeX warning: pdflatex (file ./figures/flux_radius_all_pol.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [4 <./figures/flux_radius_all_eq.pdf> <./figures/condflux_theta_rin.pdf
+
+pdfTeX warning: pdflatex (file ./figures/condflux_theta_rin.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] [5 <./figures/condflux_theta_rout.pdf>]
+<figures/AR_0.5/ke_radius_all_ar0p5.pdf, id=369, 722.7pt x 361.35pt>
+File: figures/AR_0.5/ke_radius_all_ar0p5.pdf Graphic file (type pdf)
+<use figures/AR_0.5/ke_radius_all_ar0p5.pdf>
+Package pdftex.def Info: figures/AR_0.5/ke_radius_all_ar0p5.pdf  used on input 
+line 31.
+(pdftex.def)             Requested size: 469.75502pt x 234.88023pt.
+<figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf, id=370, 1176.53174pt x 586.19821
+pt>
+File: figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf Graphic file (type pdf)
+<use figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf>
+Package pdftex.def Info: figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf  used on 
+input line 33.
+(pdftex.def)             Requested size: 469.75502pt x 234.05473pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf, id=371, 1176.53174pt x 583.31242pt>
+File: figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf Graphic file (type pdf)
+<use figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf>
+Package pdftex.def Info: figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf  used on input 
+line 35.
+(pdftex.def)             Requested size: 469.75502pt x 232.9025pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/AR_0.5/AZ_Avgs_massflux.pdf, id=372, 1176.53174pt x 583.31242pt>
+File: figures/AR_0.5/AZ_Avgs_massflux.pdf Graphic file (type pdf)
+<use figures/AR_0.5/AZ_Avgs_massflux.pdf>
+Package pdftex.def Info: figures/AR_0.5/AZ_Avgs_massflux.pdf  used on input lin
+e 37.
+(pdftex.def)             Requested size: 469.75502pt x 232.9025pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+ <./figures/AR_0.5/ke_radius_all_ar0p5.pdf>] [7 <./figures/AR_0.5/AZ_Avgs_tempe
+rature_ar0p5.pdf> <./figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf
+
+pdfTeX warning: pdflatex (file ./figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [8 <./figures/AR_0.5/AZ_Avgs_massflux.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
@@ -767,13 +854,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 20108 strings out of 492609
- 348526 string characters out of 6131462
- 445369 words of memory out of 5000000
- 23829 multiletter control sequences out of 15000+600000
+ 20178 strings out of 492609
+ 350632 string characters out of 6131462
+ 448426 words of memory out of 5000000
+ 23878 multiletter control sequences out of 15000+600000
  544187 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,10n,77p,648b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,10n,77p,649b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -784,10 +871,10 @@ type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb>
-Output written on main.pdf (4 pages, 2855448 bytes).
+Output written on main.pdf (8 pages, 5229786 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
