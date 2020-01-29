@@ -6,23 +6,23 @@
 \centering
 \begin{adjustbox}{width=1\textwidth}
 \small
- \begin{tabular}[t]{||c|| c | c | c | c | c | c | c | c | c |c||}
+ \begin{tabular}[t]{||c|| c | c | c | c | c | c | c | c | c ||}
  \hline
-	 Aspect Ratio & E & $\Delta$t & $N_r$ x $N_{\theta}$ x $N_{\phi}$ & KE & KE$_r$ & KE$_\theta$ & KE$_\phi$ & $\ell$ degree & Wavenumber $m$ & $P_{\ell}$  \\ [0.5ex]
+	 Aspect Ratio & E & $\Delta$t & $N_r$ x $N_{\theta}$ x $N_{\phi}$ & KE & KE$_r$ & KE$_\theta$ & KE$_\phi$ & Flux Ratio ($r_i$) & Flux Ratio ($r_o$)  \\ [0.5ex]
  \hline
-	 0.1 & $10^{-1}$ & $10^{-4}$ & 64x96x192 & $2.72 \times 10^{-4}$ & $1.33 \times 10^{-4}$ & $9.82 \times 10^{-5}$ & $4.00 \times 10^{-5}$ & 6 & 4 & 376 \\
+	 0.1 & $10^{-1}$ & $10^{-4}$ & 64x96x192 & $2.72 \times 10^{-4}$ & $1.33 \times 10^{-4}$ & $9.82 \times 10^{-5}$ & $4.00 \times 10^{-5}$ & 6 & 4 \\
  \hline
-	 0.1 & $10^{-2}$ & $10^{-4}$ & 64x96x192 & $3.71 \times 10^{-1}$ & $1.98 \times 10^{-2}$ & $1.08 \times 10^{-2}$ & $3.4 \times 10^{-1}$ & 6 & 4 & 376 \\	 
+	 0.1 & $10^{-2}$ & $10^{-4}$ & 64x96x192 & $3.71 \times 10^{-1}$ & $1.98 \times 10^{-2}$ & $1.08 \times 10^{-2}$ & $3.4 \times 10^{-1}$ & 6 & 4  \\	 
  \hline
-	 0.1 & $10^{-3}$ & $5 \times 10^{-5}$ & 64x96x192 & $67.23$ & $2.12 \times 10^{-1}$ & $1.01 \times 10^{-1}$ & $66.92$ & 6 & 4 & 376 \\
+	 0.1 & $10^{-3}$ & $5 \times 10^{-5}$ & 64x96x192 & $67.23$ & $2.12 \times 10^{-1}$ & $1.01 \times 10^{-1}$ & $66.92$ & 6 & 4  \\
  \hline
-	 0.1 & $10^{-4}$ & $10^{-5}$ & 64x96x192 & $9.77 \times 10^{3}$ & $3.511$ & $2.016$ & $9.76 \times 10^{3}$ & 6 & 4 & 376 \\
+	 0.1 & $10^{-4}$ & $10^{-5}$ & 64x96x192 & $9.77 \times 10^{3}$ & $3.511$ & $2.016$ & $9.76 \times 10^{3}$ & 6 & 4  \\
  \hline
-	 0.1 & $10^{-5}$ & $10^{-6}$ & 64x96x192 & $9.59 \times 10^{5}$ & $85.2$ & $251.36$ & $9.76 \times 10^{3}$ & 6 & 4 & 376 \\
+	 0.1 & $10^{-5}$ & $10^{-6}$ & 64x96x192 & $9.59 \times 10^{5}$ & $85.2$ & $251.36$ & $9.76 \times 10^{3}$ & 6 & 4 \\
  \hline
 \end{tabular}
 \end{adjustbox}
-\caption{Details of numerical simulations performed for the incompressible model in this section. The following are specified, aspect ratio of the sphere, the Ekman number (E), the luminosity, the Rayleigh number (Ra), the Prandtl number (Pr), the time-step size ($\Delta$t), the spatial resolution ($N_r$ x $N_{\theta}$ x $N_{\phi}$), and the spherical harmonic degree $\ell$ with corresponding wavenumber $m$. The power and growth rate are also recorded alongside each respective $\ell$ degree.}
+\caption{Details of numerical simulations performed for the incompressible model in this section. The following are specified, aspect ratio of the sphere, the Ekman number (E), the time-step size ($\Delta$t), the spatial resolution ($N_r$ x $N_{\theta}$ x $N_{\phi}$), kinetic energy and its components, and the flux ratio at the inner and outer boundary.}
 \end{table}}
 
 \def\centrifugaltablearfive{
@@ -31,19 +31,19 @@
 \centering
 \begin{adjustbox}{width=1\textwidth}
 \small
- \begin{tabular}[t]{||c|| c | c | c | c | c | c | c | c | c |c||}
+ \begin{tabular}[t]{||c|| c | c | c | c | c | c | c | c | c ||}
  \hline
-         Aspect Ratio & E & $\Delta$t & $N_r$ x $N_{\theta}$ x $N_{\phi}$ & KE & KE$_r$ & KE$_\theta$ & KE$_\phi$ & $\ell$ degree & Wavenumber $m$ & $P_{\ell}$  \\ [0.5ex]
+         Aspect Ratio & E & $\Delta$t & $N_r$ x $N_{\theta}$ x $N_{\phi}$ & KE & KE$_r$ & KE$_\theta$ & KE$_\phi$ & Flux Ratio ($r_i$) & Flux Ratio ($r_o$)  \\ [0.5ex]
  \hline
-         0.5 & $10^{-1}$ & $10^{-3}$ & 64x96x192 & $2.72 \times 10^{-4}$ & $1.33 \times 10^{-4}$ & $9.82 \times 10^{-5}$ & $4.00 \times 10^{-5}$ & 6 & 4 & 376 \\
+         0.5 & $10^{-1}$ & $10^{-3}$ & 64x96x192 & $3.22 \times 10^{-2}$ & $4.81 \times 10^{-3}$ & $2.07 \times 10^{-2}$ & $6.71 \times 10^{-3}$ & 6 & 4 \\
  \hline
-         0.5 & $10^{-2}$ & $10^{-4}$ & 64x96x192 & $3.71 \times 10^{-1}$ & $1.98 \times 10^{-2}$ & $1.08 \times 10^{-2}$ & $3.4 \times 10^{-1}$ & 6 & 4 & 376 \\
+         0.5 & $10^{-2}$ & $10^{-4}$ & 64x96x192 & $28.3$ & $1.98 \times 10^{-2}$ & $2.02$ & $25.75$ & 6 & 4 \\
  \hline
-         0.5 & $10^{-3}$ & $5 \times 10^{-5}$ & 64x96x192 & $67.23$ & $2.12 \times 10^{-1}$ & $1.01 \times 10^{-1}$ & $66.92$ & 6 & 4 & 376 \\
+         0.5 & $10^{-3}$ & $5 \times 10^{-5}$ & 64x96x192 & $3.19 \times 10^{3}$ & $9.74$ & $57.9$ & $3.12 \times 10^{3}$ & 6 & 4 \\
  \hline
-         0.5 & $10^{-4}$ & $10^{-5}$ & 64x96x192 & $9.77 \times 10^{3}$ & $3.511$ & $2.016$ & $9.76 \times 10^{3}$ & 6 & 4 & 376 \\
+         0.5 & $10^{-4}$ & $10^{-5}$ & 64x96x192 & $2.49 \times 10^{big}$ & $3.511$ & $2.016$ & $9.76 \times 10^{3}$ & 6 & 4 \\
  \hline
 \end{tabular}
 \end{adjustbox}
-\caption{Details of numerical simulations performed for the incompressible model in this section. The following are specified, aspect ratio of the sphere, the Ekman number (E), the luminosity, the Rayleigh number (Ra), the Prandtl number (Pr), the time-step size ($\Delta$t), the spatial resolution ($N_r$ x $N_{\theta}$ x $N_{\phi}$), and the spherical harmonic degree $\ell$ with corresponding wavenumber $m$. The power and growth rate are also recorded alongside each respective $\ell$ degree.}
+\caption{Details of numerical simulations performed for the incompressible model in this section. The following are specified, aspect ratio of the sphere, the Ekman number (E), the time-step size ($\Delta$t), the spatial resolution ($N_r$ x $N_{\theta}$ x $N_{\phi}$), kinetic energy and its components, and the flux ratio at the inner and outer boundary.}
 \end{table}}
