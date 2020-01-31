@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.23)  29 JAN 2020 11:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.23)  31 JAN 2020 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,10 +735,10 @@ Package pdftex.def Info: figures/AZ_Avgs_omega.pdf  used on input line 11.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/AZ_Avgs_massflux.pdf, id=23, 1167.59491pt x 580.9779pt>
-File: figures/AZ_Avgs_massflux.pdf Graphic file (type pdf)
-<use figures/AZ_Avgs_massflux.pdf>
-Package pdftex.def Info: figures/AZ_Avgs_massflux.pdf  used on input line 13.
+<figures/AZ_Avgs_psi.pdf, id=23, 1167.59491pt x 580.9779pt>
+File: figures/AZ_Avgs_psi.pdf Graphic file (type pdf)
+<use figures/AZ_Avgs_psi.pdf>
+Package pdftex.def Info: figures/AZ_Avgs_psi.pdf  used on input line 13.
 (pdftex.def)             Requested size: 469.75502pt x 233.7434pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -786,7 +786,7 @@ f>] [2 <./figures/AZ_Avgs_501.pdf> <./figures/AZ_Avgs_omega.pdf
 
 pdfTeX warning: pdflatex (file ./figures/AZ_Avgs_omega.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [3 <./figures/AZ_Avgs_massflux.pdf> <./figures/flux_radius_all_pol.pdf
+>] [3 <./figures/AZ_Avgs_psi.pdf> <./figures/flux_radius_all_pol.pdf
 
 pdfTeX warning: pdflatex (file ./figures/flux_radius_all_pol.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -797,13 +797,13 @@ pdfTeX warning: pdflatex (file ./figures/condflux_theta_rin.pdf): PDF inclusion
 >] [5 <./figures/condflux_theta_rout.pdf>] [6
 
 ]
-<figures/AR_0.5/ke_radius_all_ar0p5.pdf, id=373, 722.7pt x 361.35pt>
+<figures/AR_0.5/ke_radius_all_ar0p5.pdf, id=374, 722.7pt x 361.35pt>
 File: figures/AR_0.5/ke_radius_all_ar0p5.pdf Graphic file (type pdf)
 <use figures/AR_0.5/ke_radius_all_ar0p5.pdf>
 Package pdftex.def Info: figures/AR_0.5/ke_radius_all_ar0p5.pdf  used on input 
 line 35.
 (pdftex.def)             Requested size: 469.75502pt x 234.88023pt.
-<figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf, id=374, 1176.53174pt x 586.19821
+<figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf, id=375, 1176.53174pt x 586.19821
 pt>
 File: figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf Graphic file (type pdf)
 <use figures/AR_0.5/AZ_Avgs_temperature_ar0p5.pdf>
@@ -814,7 +814,7 @@ input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf, id=375, 1176.53174pt x 583.31242pt>
+<figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf, id=376, 1176.53174pt x 583.31242pt>
 File: figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf Graphic file (type pdf)
 <use figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf>
 Package pdftex.def Info: figures/AR_0.5/AZ_Avgs_omega_ar0p5.pdf  used on input 
@@ -823,7 +823,7 @@ line 39.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/AR_0.5/AZ_Avgs_massflux.pdf, id=376, 1176.53174pt x 583.31242pt>
+<figures/AR_0.5/AZ_Avgs_massflux.pdf, id=377, 1176.53174pt x 583.31242pt>
 File: figures/AR_0.5/AZ_Avgs_massflux.pdf Graphic file (type pdf)
 <use figures/AR_0.5/AZ_Avgs_massflux.pdf>
 Package pdftex.def Info: figures/AR_0.5/AZ_Avgs_massflux.pdf  used on input lin
@@ -850,8 +850,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 20179 strings out of 492609
- 350638 string characters out of 6131462
+ 20180 strings out of 492609
+ 350629 string characters out of 6131462
  443426 words of memory out of 5000000
  23878 multiletter control sequences out of 15000+600000
  544187 words of font info for 72 fonts, out of 8000000 for 9000
@@ -867,9 +867,9 @@ type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb>
-Output written on main.pdf (9 pages, 5228102 bytes).
+Output written on main.pdf (9 pages, 8417723 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
+ 587 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
  28 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
