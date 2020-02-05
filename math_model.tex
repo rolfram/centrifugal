@@ -1,24 +1,24 @@
 \section{Mathematical Model}
 
-We begin with the fluid equations for mass conservation, momentum, and internal energy without the effect of gravity. The purpose of this initial portion is to understand the effects that the centrifugal force plays on a system without gravity. The continuity equation in its dimensionless form is given by
+We begin with the fluid equations for mass conservation, momentum without the effect of gravity, and internal energy. The purpose of this initial portion is to understand the effects that the centrifugal force plays in a incompressible system. The continuity equation in its dimensionless form is given by
 \begin{align}
 	\vgrad \cdot \uvec = 0,
 \end{align}
 
 where we non-dimensionalize by a lengthscale $L$ and viscous timescale $\tau_{\nu}$. In the continuity equation the term $\uvec$ is the velocity vector. The dimensionless form of the momentum equation is given by,
 \begin{align}
-	\frac{D \uvec}{D t} = \frac{1}{\ekman^2} \svec - \frac{1}{\ekman} \zhat \cross \uvec + \nabla^2 \uvec - \nabla P,
+	\frac{D \uvec}{D t} = -\frac{\alpha T}{\ekman^2} \svec - \frac{1}{\ekman} \hat{z} \cross \uvec + \nabla^2 \uvec - \nabla P.
 \end{align}
 
-the thermal energy equation with no internal heating ($Q=0$) is given by, 
+In the momentum equation we scale temperature in the centrifugal force with $\alpha$ and we apply constant temperature boundary conditions. The thermal energy equation with no internal heating ($Q=0$) is given by, 
 \begin{align}
 	\frac{D T}{D t} = \frac{1}{\prandtl} \nabla^2 T + Q.
 \end{align}
 
-The non-dimensional ratio we use to control the system are defined as, 
+The non-dimensional ratios we use to control our models are defined as, 
 \begin{align}
-	\ekman &= \frac{\nu}{L^2 \Omega} = \frac{\tau_{\Omega}}{\tau_{\nu}},
-	\prandtl &= \frac{\nu}{\kappa}
+	\ekman &= \frac{\nu}{L^2 \Omega} = \frac{\tau_{\Omega}}{\tau_{\nu}}, \\
+	\prandtl &= \frac{\nu}{\kappa}.
 \end{align}
 
-The Ekman number (E) is the ratio of kinematic viscosity over rotation rate and radius, and as such, E is a dimensionless measure of the rotation rate of our system. The Prandtl number (Pr) is the ratio of the kinematic viscosity and the thermal diffusivity, this number is set to one for all the cases ran. 
+The Ekman number (E) is the ratio of kinematic viscosity over rotation rate and radius, and as such, E is a dimensionless measure of the rotation rate of our system. The Prandtl number (Pr) is the ratio of the kinematic viscosity and the thermal diffusivity, this number is set to one for all the cases. 
