@@ -78,6 +78,23 @@
 }
 
 
+\def\forcebalancesmallar{
+% Uses 11900, 19900, and 32200
+\begin{figure}[h]
+    \centering
+    \subfloat[]{{\includegraphics[width=0.5\textwidth]{figures/force_bal_cyl_ek1em1_r-dot19.pdf} }} \\
+    \hline
+    \subfloat[]{{\includegraphics[width=0.5\textwidth]{figures/force_bal_cyl_ek1em2_r-dot19.pdf} }} \\
+    \hline
+    \subfloat[]{{\includegraphics[width=0.5\textwidth]{figures/force_bal_cyl_ek1em3_r-dot19.pdf} }} \\
+    \hline
+    \subfloat[]{{\includegraphics[width=0.5\textwidth]{figures/force_bal_cyl_ek1em4_r-dot19.pdf} }} 
+    \caption[Force balance for smaller aspect ratio at r=0.19.]{Force balance plot in terms of radial, $\theta$, and $\phi$ components for smaller aspect ratio during the steady-state phase. Force components are taken at r=0.19 as a function of $z$ in cylindrical coordinates. The black line represents the sum of all forces.}
+    \label{fig:force-balance_small-ar}
+\end{figure}
+}
+
+
 %%%%%%%%%%%%%%%
 % AR_0.5 section
 
@@ -133,5 +150,16 @@
     \includegraphics[width=1\textwidth]{figures/AR_0.5/condflux_theta_rout_ar05.pdf}
     \caption{Conductive flux azimuthal average as a function of $\theta$ at the outer radius for a range of Ekman numbers.}
     \label{fig:condflux_rout_big}
+\end{figure}
+}
+
+\def\kevek{
+\begin{figure}[h]
+    \centering
+    \subfloat[]{{\includegraphics[width=0.45\linewidth]{figures/KEv1oE.pdf}}}%
+    \hspace{0.5 cm}
+    \subfloat[]{{\includegraphics[width=0.45\linewidth]{figures/AR_0.5/KEv5oE.pdf} }}%
+    \caption[Kinetic energy vs Ekman plots for centrifugal only.]{Final kinetic energy during equilibrated phase for a variety of Ekman cases. Gravity is disabled and slope of Ekman is used as referece.}%
+    \label{fig:kevek}%
 \end{figure}
 }
