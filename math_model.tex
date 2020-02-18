@@ -7,10 +7,10 @@ We begin with the fluid equations for mass conservation, momentum without the ef
 
 where we non-dimensionalize by a lengthscale $L$ and viscous timescale $\tau_{\nu}$. In the continuity equation the term $\uvec$ is the velocity vector. The dimensionless form of the momentum equation is given by,
 \begin{align}
-	\frac{D \uvec}{D t} = -\frac{\alpha T}{\ekman^2} \svec - \frac{1}{\ekman} \hat{z} \cross \uvec + \nabla^2 \uvec - \nabla P.
+	\frac{D \uvec}{D t} = -\frac{\beta T}{\ekman^2} \svec - \frac{1}{\ekman} \hat{z} \cross \uvec + \nabla^2 \uvec - \nabla P.
 \end{align}
 
-In the momentum equation we scale temperature in the centrifugal force with $\alpha$ and we apply constant temperature boundary conditions. The thermal energy equation with no internal heating ($Q=0$) is given by, 
+In the momentum equation we scale temperature in the centrifugal force with $\alpha$ and we apply constant temperature boundary conditions and no slip boundary conditions. The thermal energy equation with no internal heating ($Q=0$) is given by, 
 \begin{align}
 	\frac{D T}{D t} = \frac{1}{\prandtl} \nabla^2 T + Q.
 \end{align}
@@ -18,7 +18,8 @@ In the momentum equation we scale temperature in the centrifugal force with $\al
 The non-dimensional ratios we use to control our models are defined as, 
 \begin{align}
 	\ekman &= \frac{\nu}{L^2 \Omega} = \frac{\tau_{\Omega}}{\tau_{\nu}}, \\
-	\prandtl &= \frac{\nu}{\kappa}.
+	\prandtl &= \frac{\nu}{\kappa} = 1, \\
+	\beta &= \alpha \tilde{T} = 1.
 \end{align}
 
 The Ekman number (E) is the ratio of kinematic viscosity over rotation rate and radius, and as such, E is a dimensionless measure of the rotation rate of our system. The Prandtl number (Pr) is the ratio of the kinematic viscosity and the thermal diffusivity, this number is set to one for all the cases. 

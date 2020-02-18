@@ -17,6 +17,8 @@
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{mathrsfs}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[labelfont=bf]{caption}
 
 \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
 \renewcommand{\cftaftertoctitle}{\hfill\hfill}
@@ -32,18 +34,51 @@
 \newcommand{\prandtl}{\text{Pr}}
 % These 6 lines will center the titles of the table of contents, list of figures and list of tables
 
-\title{Centrifugal}
-\author{Fredy Ramirez}
-\date{Last Modified: January 2020}
 
 \begin{document}
 
-\maketitle
+\begin{titlepage}
+\begin{center}
+\vspace{1cm}
+\Huge\textbf{Centrifugal Systematic Approach}
+\vspace{0.25cm}
+\end{center}
+
+\end{titlepage}
+
+\newpage
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\pagebreak
+
+\newpage
+
 
 \input figures.tex
 \input tables.tex
+
+\pagenumbering{arabic}
+
+\input motivation.tex
 \input math_model.tex
 \input centrifugal_only.tex
+\input perturbation_w_gravity.tex
+
+\clearpage
+\newpage
+
+{\footnotesize
+\bibliography{mybib}}
+
+\addcontentsline{toc}{section}{References}
+\nocite{*}
+\bibliographystyle{plainnat}
+
 
 
 \end{document}

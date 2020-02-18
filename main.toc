@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction and Motivation}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Mathematical Model}{1}{section.2}% 
+\contentsline {section}{\numberline {3}Centrifugal Force Only}{2}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Aspect Ratio = 0.1}{2}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Aspect Ratio = 0.5}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Summary}{12}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Perturbation with Gravity}{12}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Perturbation ($g=0$)}{12}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Perturbation ($g \not =0$)}{12}{subsection.4.2}% 
+\contentsline {section}{References}{13}{section*.18}% 
